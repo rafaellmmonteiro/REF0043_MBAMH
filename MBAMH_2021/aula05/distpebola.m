@@ -1,3 +1,4 @@
+% OI turma da aula 5 dia 19 de maio de 2021
 % Carregando pacotes necessarios
 pkg load image
 pkg load io
