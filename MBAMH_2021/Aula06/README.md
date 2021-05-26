@@ -15,3 +15,5 @@ ffmpeg -i c2.avi image_chute_to_rec3D\cam2\c2_%03d.png
 
 * Calibração em 3D - DLT
 
+## References
+http://www.kwon3d.com/theory/dlt/dlt.html
