@@ -21,5 +21,18 @@ daspect([1, 1, 1]) % Escala 1:1
 
 % Capturando as coordedas em pixel do calibrador
 [pixel_X_calibc1, pixel_Y_calibc1] = ginput(12);
-calib = [pixel_X_calibc1, pixel_Y_calibc1];
+calib_c1 = [pixel_X_calibc1, pixel_Y_calibc1];
 close(1)
+
+% Plot das imagens dos calibradores
+figure(2)
+image(calibrador_c2)
+title('Clique em 12 pontos de referência para a calibração')
+daspect([1, 1, 1]) % Escala 1:1
+
+% Capturando as coordedas em pixel do calibrador
+[pixel_X_calibc2, pixel_Y_calibc2] = ginput(12);
+calib_c2 = [pixel_X_calibc2, pixel_Y_calibc2];
+close(2)
+
+
